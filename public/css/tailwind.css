@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: currentColor;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -542,7 +542,27 @@ video {
   width: 16rem;
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 198 172 / var(--tw-bg-opacity));
+.bg-yosemite {
+  background-image: url('../img/yosemite.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.font-Montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(143 162 6 / var(--tw-text-opacity));
 }
